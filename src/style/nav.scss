@@ -1,0 +1,17 @@
+.nav-wrapper {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+
+  .nav-link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 30px;
+    transition: 0.3% ease-in-out;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
